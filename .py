@@ -8,7 +8,6 @@ HOST = 'api.heclouds.com'  # onenet服务器的地址
 PORT = 80  # 80端口，该端口是访问网站必须的端口，访问网站就是访问端口
 BUFSIZ = 1024  # 每次从onenet服务器中读取的数据量
 ADDR = (HOST, PORT)
-#获取训练数据与验证数据
 def get_inputdata():
     while True:
         data = ""
@@ -26,7 +25,3 @@ def get_inputdata():
         print(data1)
         time.sleep(2)
 get_inputdata()
-#print(input_data)
-#print(len(input_data))
-#print(output_data)
-#print(len(output_data))
