@@ -1,3 +1,3 @@
 # coding：utf-8
 import numpy as np
-print("我我我我")
+print("我")
